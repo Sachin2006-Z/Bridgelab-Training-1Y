@@ -8,7 +8,7 @@ class Profit{
         System.out.println("Cost Price");
         b=sc.nextInt();
         c=a-b;
-        double d=(a*100)/b;
+        double d=(a/b)*100;
         System.out.println("Profit="+c);
         System.out.println("Profit Precent="+d);
     }
